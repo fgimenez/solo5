@@ -22,7 +22,7 @@ $(TOP)/Makeconf:
 include Makefile.common
 
 .PHONY: all
-all: ukvm virtio
+all: virtio
 .DEFAULT_GOAL := all
 .NOTPARALLEL: ukvm virtio
 
